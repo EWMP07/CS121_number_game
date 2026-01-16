@@ -33,4 +33,15 @@ int main()
     } // ends if
   } // ends while
 
+   //Evaluate performance
+  if (turns < 7){
+    printf("That's great!\n");
+  }
+  else if (turns > 7){
+    printf("You could do better.\n");
+  }
+  else {
+    printf("Good job!\n");
+  }
+
   return 0;}
