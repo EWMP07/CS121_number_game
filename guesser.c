@@ -3,7 +3,8 @@
 #include <time.h>
 #include <stdbool.h>
 
-int main(){
+int main()
+{
   char userName[20];
   int guess = -999;
   int turns = 0;
